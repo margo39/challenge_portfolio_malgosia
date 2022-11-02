@@ -27,3 +27,6 @@ Co można zmienić?
 -formularz gracza wygląda dość przytłaczająco - może warto podzielić dane na podstawowe i szczególy (jedne na górze, drugie na dole albo mniej istotne wrzucić do podstrony ze szczegółami)
 -dodanie zdjęcia gracza w profilu znacznie wpłynęło by na wygląd strony
 -w zakładcze "GRACZE" brakuje mi opcji dodaj gracza, szkoda że trzeba wracać do głównej strony by móc to zrobić
+
+
+Błędem moim zdaniem jest brak walidacji w polu wagi zawodnika - można wprowadzić wartość ujemną
