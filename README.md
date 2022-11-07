@@ -30,3 +30,35 @@ Co można zmienić?
 
 
 Błędem moim zdaniem jest brak walidacji w polu wagi zawodnika - można wprowadzić wartość ujemną
+
+Task 2
+=======
+Subtask 1
+
+
+https://docs.google.com/spreadsheets/d/1ftmMGKrdu8bxxfup2r8frxTgIXvudrhAJwVNmJ7g60c/edit#gid=0
+
+
+Substask 2
+
+
+https://docs.google.com/spreadsheets/d/1VSGYbe0m-PLeX4cDvV2Ms62GGXc8_bnBdfOzrvy-u4o/edit#gid=0
+
+
+Subtask 3
+
+
+Po co nam test case'y?
+===========
+
+[![marihuaninem](https://dareit.notion.site/image/https%3A%2F%2Fi.ytimg.com%2Fvi%2FOO3FANjwKHY%2Fhqdefault.jpg?table=block&id=59550964-8c6a-4d91-b424-c1994a2c2a1c&spaceId=732f0b1c-c96d-43d6-bb4c-c4556b1e2cd1&width=500&userId=&cache=v2)](https://www.youtube.com/watch?v=OO3FANjwKHY&t=1s)
+
+[a komu to potrzebne](https://www.youtube.com/watch?v=OO3FANjwKHY&t=1s)
+
+Przypadki testowe moim zdaniem w prosty sposób opowiadają o funkcjonalnosciach, dostepnych opcjach w aplikacji i sposobie ich działania. Czytając je można szybko poznać założenia aplikacji, jej przeznaczenie i dostępne dla uzytkownika opcje.
+
+
+Subtask 4
+
+
+https://docs.google.com/spreadsheets/d/1RcxiOCg1h_O_dJcYrzs5Qx1vKZNgiTcGGL63zI2hRA0/edit#gid=0
