@@ -62,3 +62,17 @@ Subtask 4
 
 
 https://docs.google.com/spreadsheets/d/1RcxiOCg1h_O_dJcYrzs5Qx1vKZNgiTcGGL63zI2hRA0/edit#gid=0
+
+
+Task 3
+=========
+
+Subtask 1
+
+
+https://docs.google.com/spreadsheets/d/1_UJ1hDGv4lDh9Wr5trY2DDC6N0YBHViEkloqpG4wkYc/edit#gid=0
+
+
+Subtask 3
+
+https://docs.google.com/spreadsheets/d/18RrmgXjuWb7Eww_BylPqu5zyFEXc5qjqBVM1KRFXdx0/edit#gid=0
