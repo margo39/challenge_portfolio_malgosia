@@ -87,3 +87,32 @@ https://docs.google.com/spreadsheets/d/1fYNK12yV-Ttdx6frxoQo8sfMBfKyfOG82QlwRDf3
 
 Subtask 3
 
+
+1. Do czego służy ta aplikacja? Jaki jest cel tej aplikacji? 
+
+
+Aplikacja zawiera treści wspierające zdrowie mentalne, samoświadomość. rozwój, świadome oddychanie za pośrednictwem np. medytacji, odpowedniej muzyki, treściom stworzonym przez ekspertów z tego zakresu.
+
+
+3. Kto ma być użytkownikiem końcowym aplikacji?
+
+
+Osoby fizyczne czujące potrzebę zmiany w swoim życiu, chcące skupić się na sobie (swojej psychice, uważności)
+
+
+3. Czy według Ciebie aplikacja jest user friendly?  
+
+
+W moim odczuciu jest dosyć ciężka, mnogość opcji, ogromny wybór trochę mnie przytłaczał. Jednocześnie ciężko było mi znaleźć czytelny podział na jasno sprecyzowane kategorie.
+
+
+4. Jak byś usprawnił aplikację? Co byś w niej poprawił. 
+
+
+Wprowadziłabym jasny podział na dobrze opisane kategorie.
+
+
+5. Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+
+Na tym etapie nie dostrzegam znaczących róźnic.
