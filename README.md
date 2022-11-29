@@ -139,11 +139,50 @@ JOIN
 
 
 
+
 Subtask 3
 
 <b>1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</b>
 
-SELECT * FROM actors
-ORDER BY 'surname'
+SELECT * FROM actors ORDER BY surname;
+<img width="312" alt="Zrzut ekranu 2022-11-29 o 22 05 59" src="https://user-images.githubusercontent.com/116260341/204647549-9f879c87-29bd-4f0a-8613-6eca4300ffdd.png">
 
+
+2. Wyświetl film, który powstał w 2019 roku.
+
+SELECT * FROM `movies` WHERE `year_of_production`=2019;
+<img width="393" alt="Zrzut ekranu 2022-11-29 o 22 10 25" src="https://user-images.githubusercontent.com/116260341/204648246-044a0259-c900-462e-a6ce-ebfa5ced0e76.png">
+
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+SELECT * FROM `movies` WHERE `year_of_production`BETWEEN 1900 AND 1999;
+<img width="504" alt="Zrzut ekranu 2022-11-29 o 22 12 48" src="https://user-images.githubusercontent.com/116260341/204648718-924258f6-897d-4f49-ad6b-7cf9fb90c1aa.png">
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$ 
+SELECT title,price FROM movies WHERE price<7;
+<img width="310" alt="Zrzut ekranu 2022-11-29 o 22 30 11" src="https://user-images.githubusercontent.com/116260341/204651954-bd901a1a-04d5-480d-8a04-a8966f2361ea.png">
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+SELECT * FROM actors WHERE actor_id > 3 and actor_id < 8;
+<img width="397" alt="Zrzut ekranu 2022-11-29 o 22 37 28" src="https://user-images.githubusercontent.com/116260341/204653302-7ea1069e-3f10-4619-9123-aaf8b1cbc01d.png">
+
+6. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny. 
+SELECT * FROM customers WHERE (customer_id=2 OR customer_id=4 OR customer_id=6);
+<img width="548" alt="Zrzut ekranu 2022-11-29 o 22 43 37" src="https://user-images.githubusercontent.com/116260341/204654416-ae11bb32-5dec-4cdf-b5fe-037dc4cb6f75.png">
+
+7. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN. 
+SELECT * FROM customers WHERE customer_id IN (1,3,5);
+<img width="370" alt="Zrzut ekranu 2022-11-29 o 22 44 40" src="https://user-images.githubusercontent.com/116260341/204654597-5f6bc6f3-382e-4050-930a-08b6d566b949.png">
+
+8. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+SELECT * FROM actors WHERE name LIKE "%An%";
+<img width="307" alt="Zrzut ekranu 2022-11-29 o 22 48 19" src="https://user-images.githubusercontent.com/116260341/204655220-38945d46-fed2-4756-93b8-82822745f618.png">
+
+9. Wyświetl dane klienta, który nie ma podanego adresu email.
+SELECT * FROM customers WHERE email IS NULL;
+<img width="308" alt="Zrzut ekranu 2022-11-29 o 22 51 01" src="https://user-images.githubusercontent.com/116260341/204655735-0f0e557a-55a5-4f08-81de-d544c95df810.png">
+
+10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+SELECT * FROM movies WHERE (price>9 AND movie_id BETWEEN 2 AND 8);
+<img width="459" alt="Zrzut ekranu 2022-11-29 o 22 53 46" src="https://user-images.githubusercontent.com/116260341/204656554-caa9c726-8add-42a7-b606-28646c9144f4.png">
 
