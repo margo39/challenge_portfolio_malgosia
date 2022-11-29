@@ -139,6 +139,11 @@ JOIN
 
 
 
-Subtask 2
+Subtask 3
+
+<b>1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.</b>
+
+SELECT * FROM actors
+ORDER BY 'surname'
 
 
