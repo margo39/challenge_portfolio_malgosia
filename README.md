@@ -116,3 +116,29 @@ Wprowadziłabym jasny podział na dobrze opisane kategorie.
 
 
 Na tym etapie nie dostrzegam znaczących róźnic.
+
+
+TAKSK 5
+=========
+
+Subtask 1
+
+SELECT
+
+WHERE
+
+ORDER BY
+
+ALL/ANY
+
+AND
+
+NOT
+
+JOIN
+
+
+
+Subtask 2
+
+
