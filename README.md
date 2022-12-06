@@ -222,4 +222,7 @@ SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;
 
 
 
+Subtask 2
 
+14/15
+<img width="534" alt="Zrzut ekranu 2022-12-6 o 22 05 53" src="https://user-images.githubusercontent.com/116260341/206022779-6683ea35-33d7-406e-85ac-b0450e330b7d.png">
