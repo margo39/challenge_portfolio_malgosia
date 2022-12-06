@@ -186,3 +186,40 @@ SELECT * FROM customers WHERE email IS NULL;
 SELECT * FROM movies WHERE (price>9 AND movie_id BETWEEN 2 AND 8);
 <img width="459" alt="Zrzut ekranu 2022-11-29 o 22 53 46" src="https://user-images.githubusercontent.com/116260341/204656554-caa9c726-8add-42a7-b606-28646c9144f4.png">
 
+TASK 6
+========
+Subtask 1
+
+11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
+<img width="539" alt="Zrzut ekranu 2022-12-6 o 20 26 04" src="https://user-images.githubusercontent.com/116260341/206003827-62237375-d595-48e8-b473-e25cecef9ce6.png">
+
+12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
+SELECT sale.movie_id, customers.name, customers.email FROM customers INNER JOIN sale ON customers.customer_id=sale.customer_id;
+<img width="854" alt="Zrzut ekranu 2022-12-6 o 20 55 55" src="https://user-images.githubusercontent.com/116260341/206009694-5be96aad-876a-40da-b65b-f504b2ae6db4.png">
+
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+UPDATE customers SET customers.email = 'pati@mail.com' WHERE customers.name = 'Patrycja'
+<img width="616" alt="Zrzut ekranu 2022-12-6 o 21 03 21" src="https://user-images.githubusercontent.com/116260341/206011079-3e9d57ea-f4a8-4e55-8caa-bc918b42c113.png">
+
+
+14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+SELECT customers.name, customers.surname, movies.title FROM ((sale INNER JOIN customers ON sale.customer_id-customers.customer_id) INNER JOIN movies ON sale.movie_id-movies.movie_id);
+<img width="1157" alt="Zrzut ekranu 2022-12-6 o 21 27 59" src="https://user-images.githubusercontent.com/116260341/206015886-9ab1b930-5eb6-41e2-ad45-ea0e31529aab.png">
+
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+
+
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+SELECT DISTINCT movies.movie_id, movies.title FROM movies INNER JOIN sale ON movies.movie_id=sale.movie_id;
+<img width="737" alt="Zrzut ekranu 2022-12-6 o 21 46 28" src="https://user-images.githubusercontent.com/116260341/206019376-c7f3dd95-f780-4ca3-bd50-e87a2dd68482.png">
+
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;
+<img width="563" alt="Zrzut ekranu 2022-12-6 o 21 49 53" src="https://user-images.githubusercontent.com/116260341/206020039-b02c2267-ef9a-4f17-b538-aba994d60059.png">
+
+
+
+
+
